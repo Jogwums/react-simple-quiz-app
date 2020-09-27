@@ -124,7 +124,7 @@ button svg {
   button:hover {
     background-color: #cbc1cf;
     border: 0;
-    outline: none;
+    outline: inherit;
   }
   button:focus{
     background-color: transparent;

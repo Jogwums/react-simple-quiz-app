@@ -115,10 +115,19 @@ button svg {
   }
   .question-section{
     display: block;
-    width: 50%;
+    width: 100%;
   }
   .answer-section{
     display: block;
-    width: 50%;
+    width: 100%;
+  }
+  button:hover {
+    background-color: #cbc1cf;
+    border: 0;
+    outline: none;
+  }
+  button:focus{
+    background-color: transparent;
+    outline: inherit;
   }
 }

@@ -111,7 +111,7 @@ button svg {
 @media (max-width: 400px){
   .app{
     display: inline;
-    background: none;
+    background: transparent;
   }
   .question-section{
     display: block;

@@ -108,7 +108,7 @@ button svg {
   margin-right: 5px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 568px){
   .app{
     display: inline;
     background: none;

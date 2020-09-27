@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Header from './components/header';
+
+// import jumbotron from 'bootstrap/dist/css/bootstrap.css'
 
 export default function App() {
 	const questions = [
@@ -111,6 +114,8 @@ export default function App() {
   };
 
 	return (
+		<>
+		 <Header />
 		<div className='app'>
 			{/* HINT: replace "false" with logic to display the 
       score when the user has answered all the questions. Added media querries for small screen */}
@@ -132,5 +137,6 @@ export default function App() {
 				</>
 			)}
 		</div>
+		</>
 	);
 }

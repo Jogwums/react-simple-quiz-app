@@ -108,6 +108,21 @@ button svg {
   margin-right: 5px;
 }
 
+.header{
+  background-color: #f1f1f1;
+  color: rebeccapurple;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+.header h2{
+  color: #17152E;
+  
+}
+.header p{ color: #17152E;
+  font-size: 0.9rem;}
+
 @media (max-width: 568px){
   .app{
     display: inline;

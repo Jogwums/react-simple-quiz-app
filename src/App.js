@@ -113,7 +113,7 @@ export default function App() {
 	return (
 		<div className='app'>
 			{/* HINT: replace "false" with logic to display the 
-      score when the user has answered all the questions */}
+      score when the user has answered all the questions. Added media querries for small screen */}
 			{showScore ? (
 				<div className='score-section'>You scored {score} out of {questions.length}</div>
 			) : (

@@ -107,3 +107,18 @@ button:focus {
 button svg {
   margin-right: 5px;
 }
+
+@media (max-width: 400px){
+  .app{
+    display: inline;
+    background: none;
+  }
+  .question-section{
+    display: block;
+    width: 50%;
+  }
+  .answer-section{
+    display: block;
+    width: 50%;
+  }
+}
